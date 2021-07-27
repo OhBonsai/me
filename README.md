@@ -7,7 +7,7 @@ From a idea
 Give shape
 Let it morph
 Eyes on horizon
-Follow the thrends 
+Follow the trend
 Keep trying
 Keep curiosity
 Keep learning
