@@ -2,24 +2,21 @@
 
 ## Paper Work
 ```
-You good, Friends
-
-From a idea
-
+You good, Friend
+From a idea  
 Give shape
-
 Let it morph
-
+Eyes on horizon
+Follow the thrends 
 Keep trying
-
+Keep curiosity
 Keep learning
-
+Endure loneliness
+Keep patient
 In solitude. be a multitude
-
-A Small change can create difference
-
 A Small character has unrivaled power
-
-To the greatness of small
+A Small change can create difference
+A Small ego maybe touch  the same small you 
+Thanks for watching
 ```
 
