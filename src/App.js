@@ -3,11 +3,13 @@ import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import Effects from './effects/Chaos'
 import styled, { css, createGlobalStyle } from 'styled-components'
+import { a as aDom } from '@react-spring/web'
 
 import Boxes from './components/Boxes'
 import useStore from './store'
 
 import './styles.css'
+import useYScroll from './useYScroll'
 
 
 
@@ -50,6 +52,9 @@ const Hub = function() {
 
 
 export default function App() {
+  const [y] = useYScroll([-100, 2400], { domTarget: window })
+
+
   return (
     <>
       <Canvas
@@ -62,6 +67,7 @@ export default function App() {
         <Boxes />
         <Effects />
       </Canvas>
+      <aDom.div className="bar" style={{ height: y.interpolate([-100, 2400], ['0%', '100%']) }} />
       <Hub/>
     </>
 

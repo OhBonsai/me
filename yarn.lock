@@ -1582,6 +1582,51 @@
     schema-utils "^2.6.5"
     source-map "^0.7.3"
 
+"@react-spring/animated@^9.1.0", "@react-spring/animated@~9.2.0":
+  version "9.2.4"
+  resolved "https://registry.nlark.com/@react-spring/animated/download/@react-spring/animated-9.2.4.tgz#062ecc0fdfef89f2541a42d8500428b70035f879"
+  integrity sha1-Bi7MD9/vifJUGkLYUAQotwA1+Hk=
+  dependencies:
+    "@react-spring/shared" "~9.2.0"
+    "@react-spring/types" "~9.2.0"
+
+"@react-spring/core@^9.1.0":
+  version "9.2.4"
+  resolved "https://registry.nlark.com/@react-spring/core/download/@react-spring/core-9.2.4.tgz#275a4a065e3a315a4f5fb28c9a6f62ce718c25d6"
+  integrity sha1-J1pKBl46MVpPX7KMmm9iznGMJdY=
+  dependencies:
+    "@react-spring/animated" "~9.2.0"
+    "@react-spring/shared" "~9.2.0"
+    "@react-spring/types" "~9.2.0"
+
+"@react-spring/rafz@~9.2.0":
+  version "9.2.4"
+  resolved "https://registry.nlark.com/@react-spring/rafz/download/@react-spring/rafz-9.2.4.tgz#44793e9adc14dd0dcd1573d094368af11a89d73a"
+  integrity sha1-RHk+mtwU3Q3NFXPQlDaK8RqJ1zo=
+
+"@react-spring/shared@^9.1.0", "@react-spring/shared@~9.2.0":
+  version "9.2.4"
+  resolved "https://registry.nlark.com/@react-spring/shared/download/@react-spring/shared-9.2.4.tgz#f9cc66ac5308a77293330a18518e34121f4008c1"
+  integrity sha1-+cxmrFMIp3KTMwoYUY40Eh9ACME=
+  dependencies:
+    "@react-spring/rafz" "~9.2.0"
+    "@react-spring/types" "~9.2.0"
+
+"@react-spring/types@^9.1.0", "@react-spring/types@~9.2.0":
+  version "9.2.4"
+  resolved "https://registry.nlark.com/@react-spring/types/download/@react-spring/types-9.2.4.tgz#2365ce9d761f548a9adcb2cd68714bf26765a5de"
+  integrity sha1-I2XOnXYfVIqa3LLNaHFL8mdlpd4=
+
+"@react-spring/web@9.1.0":
+  version "9.1.0"
+  resolved "https://registry.nlark.com/@react-spring/web/download/@react-spring/web-9.1.0.tgz#8b6eb431f6b5ab9c289eea2de0c9809074c1d671"
+  integrity sha1-i260Mfa1q5wonuot4MmAkHTB1nE=
+  dependencies:
+    "@react-spring/animated" "^9.1.0"
+    "@react-spring/core" "^9.1.0"
+    "@react-spring/shared" "^9.1.0"
+    "@react-spring/types" "^9.1.0"
+
 "@react-three/drei@^7.1.3":
   version "7.1.3"
   resolved "https://registry.nlark.com/@react-three/drei/download/@react-three/drei-7.1.3.tgz#5c1d65cc3494c24e3ca281b7dd43b434865702d8"
@@ -9394,6 +9439,11 @@ react-three-fiber@0.0.0-deprecated:
   version "0.0.0-deprecated"
   resolved "https://registry.npm.taobao.org/react-three-fiber/download/react-three-fiber-0.0.0-deprecated.tgz#c737242487d824cf9520307308b7e4c4071a278f"
   integrity sha1-xzckJIfYJM+VIDBzCLfkxAcaJ48=
+
+react-use-gesture@9.1.3:
+  version "9.1.3"
+  resolved "https://registry.npm.taobao.org/react-use-gesture/download/react-use-gesture-9.1.3.tgz#92bd143e4f58e69bd424514a5bfccba2a1d62ec0"
+  integrity sha1-kr0UPk9Y5pvUJFFKW/zLoqHWLsA=
 
 react-use-measure@^2.0.4:
   version "2.0.4"
